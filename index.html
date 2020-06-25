@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="res">
+        <input id="vall" style="height: 30px; width: 200px; border: 2px solid black;marg" placeholder="0" type="text">
+        
+   
+    </div>
+    <div class="main">
+        <div>
+            <button style="width: 40px;" class="abc btn btn-outline-dark"   onclick="calc('/')"><i>&#x00F7</i></button>
+            <button style="width: 42px;" class="abc  btn btn-outline-dark"><i style="font-size:20px;"
+                    class="fa" onclick="del()">&#xf177</i></button>
+            <button style="width: 90px;" class="abc abc3 btn btn-outline-dark" onclick="clearRes()">C</button>
+
+        </div>
+
+        <div> 
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('*')">x</button>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('9')">9</button>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('8')">8</button>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('7')">7</button>
+
+
+
+        </div>
+
+        <div>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('-')">-</button>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('6')">6</button>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('5')">5</button>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('4')">4</button>
+
+
+
+        </div>
+
+        <div>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('+')">+</button>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('3')">3</button>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('2')">2</button>
+            <button class="abc1 btn btn-outline-dark"  onclick="calc('1')">1</button>
+
+
+
+        </div>
+
+        <div>
+            <button style="width: 90px;" class="abc2 abc3 btn btn-outline-dark" onclick="get()">=</button>
+            <button class="abc2 btn btn-outline-dark"  onclick="calc('.')">.</button>
+            <button class="abc2 btn btn-outline-dark"  onclick="calc('0')">0</button>
+
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
